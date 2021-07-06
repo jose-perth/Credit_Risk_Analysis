@@ -195,9 +195,9 @@ Imbalanced classification report:
 
 ### Review of results
 
-Here is a summary of accuracy, precision, recall, index balanced accuracy and F1 computed on the minority class (high_risk).  This information has been compiled from snapshot and result presented above.
+Here is a summary of balanced accuracy, precision, recall, index balanced accuracy and F1 computed on the minority class (high_risk).  This information has been compiled from snapshot and result presented above.
 
-|                   |Accuracy|Precision|Recall|IBA  |   F1|
+|                   |Balanced Accuracy|Precision|Recall|IBA  |   F1|
 |---|:---:|:---:|:---:|:---:|:---:|
 |Random Oversample|   0.6038|   0.01|   0.58|  0.36|   0.02|
 |SMOTE Oversample|    0.6353|   0.01|   0.56|   0.39|   0.02|
